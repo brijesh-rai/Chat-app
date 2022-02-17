@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-div {
+    background-color: rgb(241, 241, 241);
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.name-div {
+    padding: 100px;
+    box-shadow: 1px 1px 3px;
+    background-color: rgb(242, 249, 255);
+}
+
+p {
+    font-size: 25px;
+}
+
+input,
+button {
+    padding: 8px;
+    font-size: 18px;
+}

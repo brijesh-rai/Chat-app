@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+.outer-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 30%;
+    height: 100vh;
+    background-color: black;
+    align-content: center;
+    border-radius: 15px;
+}
+
+.inner-block {
+    width: 90%;
+    height: 93vh;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.noti-bar {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 10px;
+    align-content: center;
+    justify-content: space-between;
+    height: 4vh;
+    background-color: rgb(0, 127, 185);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 8vh;
+    background-color: rgb(0, 174, 255);
+}
+
+.logo-title {
+    padding-left: 10px;
+    font-size: 27px;
+}
+
+.content-div {
+    background-color: rgb(255, 240, 193);
+    height: 81vh;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.msg-div {
+    height: 72vh;
+    scroll-behavior: smooth;
+    overflow: auto;
+    /* background-color: aqua; */
+}
+
+.input-div {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 10vh;
+    /* background-color: blue; */
+    border-radius: 0px 0px 10px 10px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+input {
+    width: 82%;
+    padding: 8px 15px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+button {
+    width: 42px;
+    border-radius: 30px;
+    font-size: 18px;
+    background-color: rgb(0, 127, 185);
+}
+
+i,
+p {
+    color: white;
+}
+
+p {
+    font-size: 15px;
+}
+
+#conn-info {
+    background-color: rgb(0, 174, 255);
+    padding: 3px 10px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+.conn-info-block {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.my-msg {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    justify-content: end;
+}
+
+.others-msg {
+    margin-top: 15px;
+    text-align: left;
+}
+
+#my-msg-text {
+    padding: 5px;
+    display: inline-block;
+}
+
+#others-msg-text {
+    padding: 5px;
+    display: inline-block;
+}
+
+.name-class {
+    padding: 5px 10px;
+    font-weight: bold;
+    background-color: rgb(163, 218, 255);
+    border-radius: 6px 6px 0px 6px;
+}
+
+.othermsg-div {
+    max-width: 60%;
+    background-color: rgb(163, 218, 255);
+    border-radius: 0px 6px 6px 6px;
+}
+
+.time {
+    display: block;
+    text-align: right;
+    padding: 2px 7px;
+}
+
+.mymsg-div {
+    background-color: aliceblue;
+    max-width: 60%;
+    border-radius: 8px;
+}

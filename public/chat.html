@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="main">
+        <div class="outer-block">
+            <div class="inner-block">
+                <div class="noti-bar">
+                    <p id="time"></p>
+                    <p id="date"></p>
+                    <i class="fas fa-battery-full"></i>
+                </div>
+                <div class="logo">
+                    <div class="logo-title">Chitchat</div>
+                </div>
+                <div class="content-div">
+                    <div class="msg-div" id="msg-div-block">
+                        <!-- <div class="conn-info-block">
+                            <label id="conn-info" for=""></label>
+                        </div>
+                        <div class="my-msg">
+                            <div class="mymsg-div">
+                                <label for="" id="my-msg-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum voluptatum doloribus hic architecto praesentium temporibus harum accusamus sint dicta nostrum. Ducimus rem molestias ipsam vitae beatae molestiae minus tempore inventore.</label>
+                            <label id="time" for="">3:17 PM</label>
+                            </div>
+                        </div>
+                        <div class="others-msg">
+                            <label for="" class="name-class">Brijesh</label><br>
+                            <div class="othermsg-div">
+                                <label for="" id="others-msg-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, enim! Inventore, expedita! Officia animi, quisquam consequatur magnam eum eos eius illo debitis? Molestiae ipsam vel deserunt ab, aspernatur a. Quis.</label>
+                                <label id="time" for="">3:17 PM</label>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="input-div">
+                        <form autocomplete="off" id="chat-form">
+                            <input id="mymsg" type="text" name="mymsg" placeholder="Type a message...">
+                            <button id="but"><i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.2/qs.min.js" integrity="sha512-f0AM6x08kthGzMyDHZjBgjBCPp8V8ovlHYCI1jMkhViTeX3MykGCf/DnN1khWss/6d1105eAG4TniSKy6UhZrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/socket.io/socket.io.js "></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
